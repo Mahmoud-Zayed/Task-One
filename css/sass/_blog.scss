@@ -1,0 +1,85 @@
+/* Start Section Blog */
+.blog {
+    padding: 50px 0;
+    .blog-header {
+        h2 {
+            color: #167595;
+            font-size: 24px;
+            border: 2px solid #167595;
+            display: inline-block;
+            padding: 8px 10px;
+            margin-bottom: 50px;
+            @media (max-width: 575px) {
+                font-size: 22px;
+            }
+        }
+    }
+    .blog-info {
+        text-align: left;
+        margin-bottom: 25px;
+        border: 0.5px solid #f5f5f5;
+        transition: box-shadow 0.3s ease-in-out;
+        &:hover {
+            box-shadow: 1px 1px 5px 1px #555;
+            border: 0;
+        }
+        span {
+            color: #888;
+        }
+        .intro {
+            position: relative;
+            img {
+                width: 100%;
+                outline: 0;
+            }
+            ul {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                margin: 0;
+                li {
+                    display: inline-block;
+                    padding: 4px 6px;
+                    color: #fff;
+                    background: rgba(0, 0, 0, 0.6);
+                    cursor: pointer;
+                }
+            }
+            button {
+                color: #fff;
+                background-color: #167595;
+                border: 0;
+                padding: 8px 10px;
+                width: 40%;
+                position: absolute;
+                left: 0;
+                bottom: -18px;
+                outline: 0;
+            }
+        }
+        .blog-info-content {
+            .blog-info-header {
+                color: #167595;
+                font-size: 25px;
+                margin: 20px 0 10px;
+                padding-top: 4px;
+            }
+            .bolg-info-desc {
+                color: #666;
+            }
+            table {
+                margin-top: 10px;
+                th, td {
+                    padding: 9px;
+                    border: 1px solid #f5f5f5;
+                    color: #777;
+                }
+                tr td.tab {
+                    color: #167595;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+/* End Section Blog */

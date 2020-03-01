@@ -1,0 +1,112 @@
+/* 
+    --- Start General Style
+        --- Start Scroll To Top
+        --- Global Style owl-carouse
+    --- Start import files    
+        --- Start Header   
+        --- Start Section Slider l
+        --- Start Section Blog
+        --- Start Section Services
+        --- Start Section loading
+        --- Start Section Footer
+*/
+
+/* Start General Style */
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial , Tahoma;
+}
+.overlay-one {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+.overlay-two {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 117, 149, 0.77);
+    z-index: 0;
+}
+/* Start Scroll To Top */
+#scroll-top {
+    width: 43px;
+    height: 43px;
+    padding: 8px 4px 0;
+    color: #DDD;
+    background: #167595;
+    text-align: center;
+    position: fixed;
+    right: 17px;
+    bottom: 14px;
+    border-radius: 50%;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+}
+#scroll-top i {
+    color: #fff;
+}
+/* End Scroll To Top */
+/* Global Style owl-carousel */
+.owl-carousel .owl-nav button.owl-next , .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    height: 100%;
+    padding: 0 50px !important;
+    font-size: 35px;
+    color: #fff;
+    outline: 0;
+}
+.owl-carousel .owl-nav button.owl-next:hover {
+    background: linear-gradient(266deg, #167595, transparent); 
+}
+.owl-carousel .owl-nav button.owl-prev:hover {
+    background: linear-gradient(85deg, #167595, transparent); 
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    float: left;
+    background: linear-gradient(85deg, #167595, transparent); 
+    margin-left: -5px;
+}
+.owl-carousel .owl-nav button.owl-next {
+    float: right;
+    background: linear-gradient(266deg, #167595, transparent); 
+    margin-right: -5px;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    position: absolute;
+    height: 100%;
+    top: -5px;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+}
+/* Global Style owl-carousel */
+/* End General Style */
+
+
+/* Start import files */
+@import "sass/header";
+@import "sass/slider";
+@import "sass/blog";
+@import "sass/services";
+@import "sass/loading";
+@import "sass/footer";
+/* End import files */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

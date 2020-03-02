@@ -11,9 +11,15 @@ header {
             font-size: 28px;
             padding: 25px 0 0 0;
             margin-bottom: 0;
+            @media (max-width: 375px) {
+                font-size: 22px;   
+            }
             span {
                 color: rgba(255, 255, 255, 0.6666);
                 margin-right: 5px;
+                @media (max-width: 375px) {
+                    margin-right: 2px;
+                }
             }
         }
         > span {
@@ -23,6 +29,10 @@ header {
             padding: 0;
             position: absolute;
             letter-spacing: 4px;
+            @media (max-width: 375px) {
+                font-size: 8px;   
+                letter-spacing: 3.6px;
+            }
         }
     }
     nav {
@@ -31,9 +41,15 @@ header {
         .links {
             color: #fff;
             font-size: 18px;
+            @media (max-width: 375px) {
+                font-size: 15px;
+            }
             p {
                 display: inline-block;
                 margin-right: 8px;
+                @media (max-width: 375px) {
+                    margin-right: 5px;
+                }
             }
             i {
                 color: rgba(0, 0, 0, 0.3);
@@ -41,6 +57,9 @@ header {
                 padding: 8px;
                 border-radius: 2px;
                 cursor: pointer;
+                @media (max-width: 375px) {
+                    padding: 5px;
+                }
             }
         }
     }
@@ -58,6 +77,9 @@ header {
             @media (max-width: 575px) {
                 font-size: 33px;
             }
+            @media (max-width: 375px) {
+                font-size: 28px;
+            }
         }
         .other {
             background-color: rgba(255, 255, 255, 0.22233333);
@@ -70,6 +92,11 @@ header {
             @media (max-width: 991px) {
                 width: 60%; 
             }
+            @media (max-width: 375px) {
+                height: 180px;
+                width: 78%;
+                border-left: 8px solid #167595;
+            }
             &::before {
                 content: " ";
                 position: absolute;
@@ -79,6 +106,10 @@ header {
                 left: -13px;
                 top: -4px;
                 border-radius: 3px;
+                @media (max-width: 375px) {
+                    height: 5px;
+                    width: 18px;
+                }
             }
             &::after {
                 content: " ";
@@ -89,6 +120,10 @@ header {
                 left: -13px;
                 bottom: -4px;
                 border-radius: 3px;
+                @media (max-width: 375px) {
+                    height: 5px;
+                    width: 18px;
+                }
             }
             span.one {
                 color: #f1f1f1de;
@@ -96,6 +131,9 @@ header {
                 left: 5px;
                 top: 4px;
                 font-size: 14px;
+                @media (max-width: 375px) {
+                    font-size: 12px;
+                }
             }
             span.two {
                 color: #f1f1f1de;
@@ -121,7 +159,11 @@ header {
                     outline: 0;
                     color: #167595;
                     @media (max-width: 768px) {
-                            width: 100%;
+                        width: 100%;
+                    }
+                    @media (max-width: 375px) {
+                        padding: 6px;
+                        margin: 8px auto 0;
                     }
                 }
                 input[type="submit"] {
@@ -136,6 +178,10 @@ header {
                     @media (max-width: 768px) {
                         width: 40%;
                         margin: 10px auto;
+                    }
+                    @media (max-width: 375px) {
+                        padding: 6px;
+                        margin: 8px auto;
                     }
                 }
                 .buttons {
@@ -157,6 +203,9 @@ header {
                         }
                         &:hover {
                             background-color: #167595;
+                        }
+                        @media (max-width: 375px) {
+                            padding: 6px;
                         }
                     }
                     button.b {
@@ -180,6 +229,9 @@ header {
                 border-top-left-radius: 7px;
                 color: #f1f1f1de;
                 font-size: 14px;
+                @media (max-width: 375px) {
+                    font-size: 11px;
+                }
             }
         }
     }

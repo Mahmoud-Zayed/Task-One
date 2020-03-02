@@ -12,6 +12,10 @@
             @media (max-width: 575px) {
                 font-size: 22px;
             }
+            @media (max-width: 375px) {
+                font-size: 18px;
+                padding: 6px 8px;   
+            }
         }
     }
     .services-content {
@@ -35,6 +39,12 @@
                 color: #fff;
                 background: rgba(0, 0, 0, 0.6);
                 cursor: pointer;
+                @media (max-width: 375px) {
+                      padding: 7px;
+                }
+                &:hover {
+                    background-color: #167595;
+                }
             }
         }
         &:hover .over {
@@ -62,6 +72,11 @@
             @media (min-width: 992px) and (max-width: 1250px) {
                 padding: 20px 0;
             }
+            @media (max-width: 375px) {
+                padding: 15px 0; 
+                left: 15px;     
+                right: 5px;   
+            }
             .over-title {
                 font-size: 28px;
                 font-weight: bold;
@@ -69,6 +84,10 @@
                 @media (max-width: 768px) {
                     font-size: 20px;
                     margin-bottom: 10px;
+                }
+                @media (max-width: 375px) {
+                    font-size: 18px;  
+                    margin-bottom: 5px;   
                 }
             }
             .over-desc {
@@ -79,9 +98,17 @@
                     font-size: 16px;
                     margin-bottom: 3px;
                 }
+                @media (max-width: 375px) {
+                    font-size: 14px;
+                    margin-bottom: 3.5px;     
+                }
             }
             .over-price {
                 font-style: italic;
+                @media (max-width: 375px) {
+                    font-size: 14px;
+                    margin-bottom: 3.5px;    
+                }
                 span {
                     font-weight: bold;
                 }
@@ -99,6 +126,11 @@
                     padding: 5px;
                     font-size: 16px;
                     border-radius: 5px;
+                }
+                @media (max-width: 375px) {
+                    padding: 4px; 
+                    font-size: 14px;
+                    border-radius: 3px;
                 }
             }
             ul {
@@ -125,6 +157,11 @@
                     border-radius: 3px;
                     @media (max-width: 768px) {
                         padding: 5px 7px;
+                    }
+                    @media (max-width: 375px) {
+                        padding: 4px 6px;
+                        margin-right: 8px;
+                        font-size: 14px;
                     }
                 }
             }

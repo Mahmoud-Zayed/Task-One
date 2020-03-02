@@ -1,0 +1,1 @@
+sass --watch 'C:\Users\Mahmoud Zayed\Desktop\Task-One\css':'C:\Users\Mahmoud Zayed\Desktop\Task-One\css' --style expanded

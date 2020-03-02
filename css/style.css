@@ -27,11 +27,9 @@ body {
 }
 
 .overlay-two {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  padding: 10px 0;
+  height: auto;
   background-color: rgba(22, 117, 149, 0.77);
-  z-index: 0;
 }
 
 /* Start Scroll To Top */
@@ -855,43 +853,13 @@ header .home .other p {
   background-repeat: no-repeat;
   position: relative;
 }
-@media (max-width: 991px) {
-  .footer {
-    height: 885px;
-  }
-}
-@media (max-width: 991px) {
-  .footer {
-    height: 885px;
-  }
-}
-@media (min-width: 992px) {
-  .footer {
-    height: 620px;
-  }
-}
-@media (max-width: 768px) {
-  .footer {
-    height: 900px;
-  }
-}
-@media (max-width: 575px) {
-  .footer {
-    height: 920px;
-  }
-}
-@media (max-width: 375px) {
-  .footer {
-    height: 750px;
-  }
-}
 .footer .title {
-  padding: 50px 0 10px;
+  padding: 40px 0 10px;
   z-index: 1;
 }
 @media (max-width: 375px) {
   .footer .title {
-    padding: 35px 0 8px;
+    padding: 25px 0 8px;
   }
 }
 .footer .title h2 {

@@ -52,8 +52,8 @@ header {
                 }
             }
             i {
-                color: rgba(0, 0, 0, 0.3);
-                background-color: #fff;
+                color: #167595;
+                background-color: rgba(0, 0, 0, 0.6);
                 padding: 8px;
                 border-radius: 2px;
                 cursor: pointer;
@@ -93,7 +93,7 @@ header {
                 width: 60%; 
             }
             @media (max-width: 375px) {
-                height: 180px;
+                height: 175px;
                 width: 78%;
                 border-left: 8px solid #167595;
             }
@@ -157,7 +157,7 @@ header {
                     margin: 12px -1px 0;
                     border: 0;
                     outline: 0;
-                    color: #167595;
+                    color: #333;
                     @media (max-width: 768px) {
                         width: 100%;
                     }
@@ -177,7 +177,7 @@ header {
                     display: inline-block;
                     @media (max-width: 768px) {
                         width: 40%;
-                        margin: 10px auto;
+                        margin: 15px auto 10px;
                     }
                     @media (max-width: 375px) {
                         padding: 6px;
@@ -207,12 +207,10 @@ header {
                         @media (max-width: 375px) {
                             padding: 6px;
                         }
-                    }
-                    button.b {
                         @media (max-width: 768px) {
                             display: none;
                         }
-                    }  
+                    }
                     button.blue {
                         background-color: #167595;
                     }                 
